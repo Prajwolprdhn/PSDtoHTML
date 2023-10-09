@@ -1,0 +1,133 @@
+.mini-header {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #506a85;
+  background: #f5f7fa;
+}
+.details i {
+  margin-right: 20px;
+}
+.icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  display: block;
+  width: 100%;
+}
+.icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img {
+  height: auto;
+  width: 150px;
+}
+.nav-options li {
+  margin-top: 15px;
+  display: inline-block;
+}
+.nav-options li a {
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #506a85;
+}
+.nav-options li:last-child {
+  float: right;
+}
+.image-section {
+  position: relative;
+  text-align: center;
+}
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+.all-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-align: center;
+}
+.info-section {
+  font-size: 70px;
+  color: white;
+}
+.min-info {
+  color: #a3b1bf;
+  padding-bottom: 40px;
+}
+.btn {
+  border: #00bc9c;
+  background-color: #00bc9c;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn:hover {
+  color: white;
+  background-color: #00bc9c;
+  text-decoration: none;
+}
+/* .all-info .min-info {
+  position: absolute;
+  text-align: center;
+} */
+.clean-section {
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin: 100px 0px;
+}
+.clean-detail {
+  padding: 1% 25%;
+  color: #506a85;
+}
+.clean-header {
+  font-size: 28px;
+  font-weight: 500;
+  color: #506a85;
+}
+.clean-icon {
+  text-align: center;
+  margin: 40px;
+}
+
+.clean-icon .icon1,
+.clean-icon .detail1,
+.clean-icon .icon2,
+.clean-icon .icon3 {
+  display: inline-block;
+  margin: 0 10px;
+}
+.icon-green {
+  color: #00bc9c;
+  font-size: 50px;
+  font-weight: 600;
+}
+.detail1 {
+  text-align: left;
+}
+.detail1 .head-detail {
+  font-size: 18px;
+  font-weight: 600;
+  color: #506a85;
+}
+.detail1 .min-detail {
+  padding-top: 5px;
+  font-size: 14px;
+  display: flex !important;
+  width: 300px;
+  color: #506a85;
+}
+.third-section {
+  height: 400px;
+  background-color: #a3b1bf;
+}
