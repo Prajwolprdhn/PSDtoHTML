@@ -186,7 +186,111 @@
           <button type="button" class="btn btn-success">GET IN TOUCH</button>
         </div>
       </div>
-      <div class="footer"></div>
+      <div class="footer">
+        <div class="footer-container">
+          <div class="row1">
+            <div class="info1">WHO WE ARE</div>
+            <div class="row1-img">
+              <img src="./images/logo1.png" alt="logo" />
+            </div>
+            <div class="sm-info">
+              Magnis modipsae voloratati andigen daepeditem quiate re porem que
+              aut labor. Laceaque eictemperum quiae sitiorem rest non
+              restibusaes maio es dem tumquam.
+            </div>
+            <div class="sm-min-info">More about us -></div>
+          </div>
+          <div class="row2">
+            <div class="info1">LATEST WORKS</div>
+            <div class="sm-img">
+              <img src="./images/pic1.png" alt="img" />
+              <img src="./images/pic2.png" alt="img" />
+              <img src="./images/pic3.png" alt="img" />
+              <img src="./images/pic4.png" alt="img" />
+            </div>
+          </div>
+          <div class="row3">
+            <div class="info1">GET IN TOUCH</div>
+            <div class="sm-info">
+              Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis
+              et consent accullignis dentibea autem inisita.
+            </div>
+            <div class="sm-icon">
+              <i class="bi-geo-alt-fill"> 84 Street, City, State 24813</i>
+              <i class="bi-phone"> +00 (123) 456 78 90 </i>
+              <i class="bi-envelope"> info@reen.com</i>
+            </div>
+          </div>
+          <div class="row1">
+            <div class="info1">FREE UPDATES</div>
+            <div class="sm-info">
+              Conecus iure posae volor remped modis Daut lor volor accabora
+              incim resto explabo.
+            </div>
+            <div class="input-group mb-3 custom-input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your email address"
+                aria-label=""
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <div class="mini-footer">
+      <div class="container">
+        <div class="row ml-0 mr-0">
+          <div class="footer-text col-sm-6">
+            &copy; 2014 REEN. All rights reserved.
+          </div>
+
+          <div class="footer-menu col-sm-6">
+            <ul>
+              <li>Home</li>
+              <li>Portfolio</li>
+              <li>Blog</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" id="btn-back-to-top">
+      <i class="bi bi-caret-up"></i>
+    </button>
   </body>
 </html>
+
+<script>
+  //Get the button
+  let mybutton = document.getElementById("btn-back-to-top");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  mybutton.addEventListener("click", backToTop);
+
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
